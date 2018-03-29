@@ -1,0 +1,131 @@
+
+<view class="shopbj">
+  <view class="shoptu">
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
+      <block wx:for="{{images}}" wx:for-item="aaa">
+        <swiper-item>
+          <image src="{{aaa}}" class="slide-image" mode="aspectFill" />
+
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!--商品信息  -->
+  <view class="shopxx">
+    <view class="shopxxs">
+      <text>{{titles}}</text>
+    </view>
+    <view class="shopxxser">
+      <text>{{sub_title}}</text>
+    </view>
+    <view class="shopxxb">
+      <view class="shopxxz">
+        <text>￥</text>
+        <text>{{price}}</text>
+      </view>
+      <view class="shopxxy">
+        <text>货号：</text>
+        <text>{{bn}}</text>
+      </view>
+    </view>
+  </view>
+  <!--商品信息结束  -->
+  <!--商品规格  -->
+  <view class="spggts">
+    <view bindtap="listenerButton" class="tck">
+      <view class="xznr">
+        <text>已选</text>
+      </view>
+      <view class="spgg">
+        <text class="xzgg">商品规格</text>
+      </view>
+    </view>
+    <!--颜色  -->
+    <view class="tcysfl" wx:for="{{spec_value}}">
+      <view class="tcyans">
+        <text  class="yssss" id="{{item.spec_id}}">{{item.spec_name}}</text>
+      </view>
+      <view  class="ysfl">
+        <view wx:for="{{item.spec_values}}" wx:for-item="lists">
+          <view class="xslxx">
+            <text class="normalxslx" id="{{lists.spec_value_id}}">{{lists.spec_value}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!--提示信息  -->
+    <view class="yffh">
+      <view class="tsxx">
+        <text>提示</text>
+      </view>
+      <view class="yffhdd">
+        <view class="yf">
+          <text class="yun">运费：</text>
+          <text class="yfje"  wx:if="{{freeConf==0}}">到付</text>
+          <text class="yfje"  wx:if="{{freeConf==1}}">卖家承担</text>
+        </view>
+        <view class="fh">
+          <text class="fhd">发货地：</text>
+          <text class="dz">{{shippingPlace}}</text>
+        </view>
+      </view>
+    </view>
+    <!--图文详情  -->
+    <view class="texq">
+      <text class="tw">图文详情</text>
+    </view>
+  </view>
+  <!--店铺名字结束  -->
+  <!--图文详情  -->
+  <view class="spmsz">
+    <view class="xxcs">
+      <view class="jbcs"> 基本参数</view>
+      <!--参数信息 wx-for循环 -->
+      <view class="sphh" wx:for="{{base_info}}" wx:for-index="index" wx:for-item="item">
+        <!--index 代表的为 key  值  -->
+        <view class="sph"> {{index}}：</view>
+        <view class="spnr">{{item}}</view>
+      </view>
+    </view>
+    <!--图文描述  -->
+    <view class="tw">
+      <view class="twms">图文描述</view>
+      <!--循环图片  -->
+      <view class="twzp" wx:for="{{images}}">
+        <image src="{{item}}" class="zp" mode="widthFix"></image>
+      </view>
+    </view>
+    <!--温馨提示  -->
+    <view class="wxts">
+      <view class="tsp">
+        <image src="../../images/ico/wenxin.jpg"></image>
+      </view>
+
+      <!--内容  -->
+      <view class="sw">实物拍摄 / photograph
+        <view class="swwz">
+          <text>产品图片均为专业摄影师100%实物拍摄，并有专业设计师根据产品校正产品图片颜色，但是由于拍摄光线、角度和显示器对比度不同，会稍微有些色差存在哦！</text>
+        </view>
+      </view>
+      <!--2  -->
+      <view class="sw">实物尺寸/ Size
+        <view class="swwz">
+          <text>产品尺寸都是手工测量，由于每个人的测量方法和量具不同，有些稍许误差是正常现象，但我们保证误差会在1-2cm之间，请放心购买！</text>
+        </view>
+      </view>
+      <!--3  -->
+      <view class="sw">关于发货/ Deliver goods
+        <view class="swwz">
+          <text>现货商品付款后12小时内（若当日16：00至次日9：00之间付款，则在买家付款后24小时内）发货。若存在特殊情况，客服会尽快与买家说明情况，避免时间过长产生不必要的误会。</text>
+        </view>
+      </view>
+
+      <!--4  -->
+      <view class="sw">关于退换货/ Return
+        <view class="swwz">
+          <text>在商品签收后有质量问题，请联系搜布客服400-6619508申请退换货，7日内退货，30日内换货（自您签收之日起计算）。</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

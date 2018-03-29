@@ -1,0 +1,36 @@
+/*店铺信息开始  */
+
+.dpxxs {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.dpxxs .dlxxti {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  background: white;
+}
+
+.dpl {
+  color: #666;
+}
+
+.dpxxs .dpmcs {
+  padding-left: 0.5rem;
+  font-size: 15px;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.dpxxs .dpmcsx {
+  padding-left: 0.5rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 15px;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.xxl {
+  margin-left: 0.5rem;
+}

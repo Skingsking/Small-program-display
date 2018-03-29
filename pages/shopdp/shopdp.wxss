@@ -1,0 +1,534 @@
+.shopbj {
+  background-color: #eee;
+}
+
+.shoptu swiper {
+  height: 550rpx;
+  width: 100%;
+}
+
+.shoptu swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+
+.shopxx {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.shopxx .shopxxs {
+  font-size: 16px;
+  display: flex;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 20rpx;
+}
+
+.shopxx .shopxxser {
+  font-size: 13px;
+  display: flex;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 20rpx;
+  color: #888;
+}
+
+.shopxx .shopxxb {
+  display: -webkit-box;
+}
+
+.shopxxb .shopxxz {
+  -webkit-box-flex: 2;
+  font-size: 14px;
+  color: #ea2329;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-bottom: 20rpx;
+}
+
+.shopxxb .shopxxy {
+  font-size: 14px;
+  color: #cdcdcd;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+/*商品规格开始  */
+
+.tck {
+  background: white;
+  border-bottom: 1px solid #cdcdcd;
+  margin-top: 10rpx;
+}
+
+.tck .xznr {
+  color: #999;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-size: 14px;
+  padding-top: 20rpx;
+}
+
+.tck .spgg {
+  color: #222;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-size: 14px;
+  padding-bottom: 20rpx;
+  display: flex;
+}
+
+.tck .spgg .xzgg {
+  width: 92%;
+}
+
+.tck .spgg .ggjt {
+  color: #cdcdcd;
+}
+
+.yssss {
+  font-size: 14px;
+  color: #666;
+}
+
+.ysfl {
+  display: flex;
+}
+
+.tcysfl {
+  border-bottom: 1px solid #cdcdcd;
+  background: #fff;
+  padding-left: 2rem;
+}
+
+.yansexz {
+  display: flex;
+}
+
+.yansexz .normal {
+  color: black;
+  width: 3rem;
+  background: #eee;
+  border-radius: 0.2rem;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.yansexz .selected {
+  color: white;
+  width: 3rem;
+  background: red;
+  border-radius: 0.2rem;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.tcyans text {
+  font-size: 14px;
+}
+
+.tcxsfs {
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.xsfss {
+  display: flex;
+}
+
+.xsfss .normalxs {
+  color: black;
+  width: 3rem;
+  background: #eee;
+  border-radius: 0.2rem;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.xsfss .selectedxs {
+  color: white;
+  width: 3rem;
+  background: red;
+  border-radius: 0.2rem;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.xslxx {
+  display: flex;
+}
+
+.xslxx .normalxslx {
+  color: black;
+  
+  background: #eee;
+  border-radius: 0.2rem;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.2rem;
+}
+
+.xslxx .selectedxslx {
+  color: white;
+  width: 3rem;
+  background: red;
+  border-radius: 0.2rem;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.tccolor .tcxs text {
+  font-size: 16px;
+}
+
+.tccolor .tcxslx {
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.tccolor .tcxslxjx {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.tccolor .tcxslxjx text {
+  font-size: 16px;
+}
+
+.srsl {
+  width: 100%;
+  border-bottom: 1px solid #cdcdcd;
+  display: flex;
+}
+
+.srsl .srspsl {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.srsl .srspsl text {
+  font-size: 16px;
+}
+
+/*主容器*/
+
+.stepper {
+  width: 80px;
+  height: 26px;
+  /*给主容器设一个边框*/
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 8px auto;
+}
+
+/*加号和减号*/
+
+.stepper text {
+  width: 19px;
+  line-height: 26px;
+  text-align: center;
+  float: left;
+}
+
+/*数值*/
+
+.stepper input {
+  width: 40px;
+  height: 26px;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  /*给中间的input设置左右边框即可*/
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/*普通样式*/
+
+.stepper .normal {
+  color: black;
+}
+
+/*禁用样式*/
+
+.stepper .disabled {
+  color: #ccc;
+}
+
+.gwgm {
+  width: 100%;
+  display: flex;
+}
+
+.gwgm .gw {
+  width: 50%;
+}
+
+.gwgm .gw button {
+  background: #fb0;
+  color: white;
+}
+
+.gwgm .gm {
+  width: 50%;
+}
+
+.gwgm .gm button {
+  background: #f00;
+  color: white;
+}
+
+/*提示信息开始  */
+
+.yffh {
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #cdcdcd;
+  margin-top: 10rpx;
+}
+
+.yffh .tsxx {
+  color: #999;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-size: 15px;
+  padding-top: 20rpx;
+}
+
+.yffh .yffhdd {
+  display: flex;
+}
+
+.yffh .yffhdd .yf {
+  color: #222;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-size: 15px;
+  padding-bottom: 20rpx;
+}
+
+.yffh .yffhdd .yf .yfje {
+  color: #999;
+}
+
+.yffh .yffhdd .fh {
+  color: #222;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-size: 15px;
+  padding-bottom: 20rpx;
+}
+
+.yffh .yffhdd .fh .dz {
+  color: #999;
+}
+
+/*提示信息结束  */
+
+/*图文详情  */
+
+.texq {
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #cdcdcd;
+  margin-top: 10rpx;
+  height: 2rem;
+  line-height: 2rem;
+  display: flex;
+}
+
+.texq  .tw {
+  color: black;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-size: 14px;
+  width: 80%;
+}
+
+.texq .jt {
+  color: #cdcdcd;
+}
+
+/*店铺名字开始  */
+
+.dpzhz {
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #cdcdcd;
+  margin-top: 10rpx;
+}
+
+.dpmz {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  -webkit-box-align: end;
+  padding: 10rpx;
+  z-index: 10;
+  margin-left: 0.5rem;
+}
+
+.dpmz .dptps {
+  width: 20%;
+  height: 4.5rem;
+  overflow: hidden;
+}
+
+.dptps image {
+  width: 100%;
+}
+
+.dpmcs {
+  padding-left: 20rpx;
+  margin-bottom: 35rpx;
+}
+
+.dpmcs text {
+  font-size: 15px;
+  color: blakc;
+}
+
+.dpxxs image {
+  width: 15px;
+  height: 15px;
+  margin-left: 1rpx;
+}
+
+.anys {
+  width: 100%;
+  display: flex;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.anys .scdp {
+  width: 43%;
+}
+
+.anys .scdp .sc {
+  background: white;
+  border: 1px solid red;
+  color: red;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+
+.anys .jrdp {
+  width: 43%;
+  margin-left: 1rem;
+}
+
+.anys .jrdp .jr {
+  background: white;
+  border: 1px solid red;
+  color: red;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+
+/*店铺名字结束  */
+
+/*图文  */
+
+.xxcs {
+  width: 100%;
+}
+
+.jbcs {
+  width: 100%;
+  background: #e9e9e9;
+  text-align: center;
+  height: 2rem;
+  line-height: 2rem;
+  color: #66656b;
+  font-size: 16px;
+}
+
+.sphh {
+  display: flex;
+  background: white;
+  border-bottom: 1px solid #cdcdcd;
+  width: 100%;
+}
+
+.sphh .sph {
+  color: #666;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+  width: 30%;
+  font-size: 15px;
+}
+
+.sphh .spnr {
+  font-size: 15px;
+   width: 70%;
+    line-height: 1.5rem;
+}
+
+.tw {
+  width: 100%;
+}
+
+.tw .twms {
+  width: 100%;
+  background: #e9e9e9;
+  text-align: center;
+  height: 2rem;
+  line-height: 2rem;
+  color: #66656b;
+  font-size: 16px;
+}
+
+.tw .zp {
+  width: 100%;
+}
+
+.wxts {
+  width: 100%;
+}
+
+.wxts .tsp {
+  width: 100%;
+  height: 3rem;
+}
+
+.wxts .tsp image {
+  width: 100%;
+  height: 3rem;
+}
+
+.wxts .sw {
+  font-weight: 600;
+  padding: 0.5rem 0.5rem;
+}
+
+.wxts .swwz text {
+  font-weight: 400;
+  color: #666;
+  font-size: 14px;
+}

@@ -1,0 +1,122 @@
+/* .spxxtitle{
+  width: 100%;
+  height: 2rem;
+  background-color: #eee;
+  text-align: center;
+  line-height: 2rem;
+  position: fixed;
+
+} */
+
+.zongtu {
+  width: 100%;
+  height: 15rem;
+}
+
+.zppp {
+  width: 100%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.missimg {
+  width: 20%;
+  height: 30%;
+}
+
+.wznra {
+  width: 100%;
+  text-align: center;
+}
+
+.wtze {
+  font-size: 14px;
+}
+
+.qsy {
+  width: 100%;
+  text-align: center;
+}
+
+.wtzea {
+  font-size: 14px;
+  background: #f0ad4e;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+/*商品展示开始*/
+
+.spxqtit {
+  margin-top: 0.3rem;
+  margin-left: 10px;
+}
+
+.bttitss {
+  border-bottom: 1px solid #666;
+  font-size: 16px;
+}
+
+.zxq {
+  display: flex;
+  float: left;
+  width: 50%;
+  margin-top: 0.3rem;
+}
+
+.zxq  .imgsss {
+  width: 100%;
+  margin-left: 1%;
+}
+
+.wznr {
+  margin-left: 30rpx;
+  width: 95%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wznr .wznrtxt {
+  font-size: 14px;
+}
+
+.zxq .zspjg {
+  margin-bottom: 10rpx;
+  font-size: 12px;
+  margin-left: 25rpx;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rpx;
+}
+
+.zxq .gmjg {
+  color: #999;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.xhtd {
+  width: 98%;
+}
+
+.loading {
+  display: inline-block;
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 16px;
+}
+
+.complete {
+  display: inline-block;
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 16px;
+}

@@ -1,0 +1,20 @@
+{
+"tabBar": {
+  "color": "#f46969",
+  "list": [
+    {
+      "iconPath": "images/ico/index-Gray.png",
+      "selectedIconPath": "images/ico/index-Red.png",
+      "pagePath": "pages/index/index",
+      "text": "店铺"
+    },
+    {
+      "iconPath": "images/ico/find-Gray.png",
+      "selectedIconPath": "images/ico/find-Red.png",
+      "pagePath": "pages/logs/logs",
+      "text": "商品"
+    }
+  ]
+}
+  
+}

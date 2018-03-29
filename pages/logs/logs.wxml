@@ -1,0 +1,24 @@
+<view>
+
+  <!--店铺信息  -->
+  <view class="dpxxs">
+    <view class="dlxxti">店铺信息</view>
+    <view class="dpmcsx">
+      <text class="dpl">店铺名称:</text>
+      <text class="xxl">{{shop_name}}</text>
+    </view>
+    <view class="dpmcs">
+      <text class="dpl">店铺详情:</text>
+      <text class="xxl">{{shop_descript}}</text>
+    </view>
+    <view class="dpmcsx">
+      <text class="dpl">店铺地址:</text>
+      <text class="xxl">{{shop_area}}</text>
+    </view>
+    <view class="dpmcsx">
+      <text class="dpl">店铺电话:</text>
+      <text class="xxl" bindtap='phonecallevent'>{{mobile}}</text>
+    </view>
+
+  </view>
+</view>

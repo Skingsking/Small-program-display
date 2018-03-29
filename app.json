@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shopdp/shopdp",
+    "pages/shopfl/shopfl"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "星派面辅料超市",
+    "backgroundColor": "#cdcdcd",
+    "backgroundTextStyle": "#cdcdcd",
+      "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#f46969",
+    "list": [
+      {
+        "iconPath": "images/ico/index-Gray.png",
+        "selectedIconPath": "images/ico/index-Red.png",
+        "pagePath": "pages/index/index",
+        "text": "店铺首页"
+      },
+      {
+        "iconPath": "images/ico/find-Gray.png",
+        "selectedIconPath": "images/ico/find-Red.png",
+        "pagePath": "pages/logs/logs",
+        "text": "店铺信息"
+      }
+    ]
+  },
+  "debug": true
+  
+}

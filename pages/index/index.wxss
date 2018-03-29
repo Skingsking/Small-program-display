@@ -1,0 +1,143 @@
+.zynr {
+  background-color: #eee;
+}
+
+swiper-item image {
+  width: 100%;
+}
+
+.bjlg {
+  width: 100%;
+  position: relative;
+}
+
+.bjtp image {
+  width: 100%;
+}
+
+.dptp image {
+  width: 100%;
+}
+
+.bjlg .tcyy {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}
+
+.bjlg .dpnr {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  -webkit-box-align: end;
+  padding: 10rpx;
+  z-index: 10;
+}
+
+.bjlg .dptp {
+  width: 20%;
+  height: 4.5rem;
+  overflow: hidden;
+}
+
+.bjlg .dptp image {
+  width: 100%;
+}
+
+.bjlg .dpmc {
+  padding-left: 20rpx;
+  margin-bottom: 15rpx;
+}
+
+.dpmc text {
+  font-size: 15px;
+  color: white;
+}
+
+.dpmc image {
+  width: 15px;
+  height: 15px;
+  margin-left: 1rpx;
+}
+.gdt {
+  white-space: nowrap;
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+ 
+}
+
+.gdt .gdnr {
+  background: white;
+  width: 80px;
+  height: 40px;
+   display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  color: #666; 
+  line-height: 40px;
+}
+/*商品展示开始*/
+
+.spxqtit {
+  margin-top: 0.3rem;
+  margin-left: 10px;
+}
+
+.bttitss {
+  border-bottom: 1px solid #666;
+  font-size: 16px;
+}
+
+.zxq {
+  display: flex;
+  float: left;
+  width: 50%;
+  margin-top: 0.3rem;
+}
+
+.zxq  .imgsss {
+  width: 100%;
+  margin-left: 1%;
+
+}
+
+.wznr {
+  margin-left: 30rpx;
+  width:95%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wznr .wznrtxt {
+  font-size: 14px;
+}
+
+.zxq .zspjg {
+  margin-bottom: 10rpx;
+  font-size: 12px;
+  margin-left: 25rpx;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rpx;
+}
+
+.zxq .gmjg {
+  color: #999;
+  font-size: 11px;
+  margin-top: 2px;
+}
+.xhks{
+  overflow:hidden;
+}
+.xhtd{
+  width:98%;
+}
